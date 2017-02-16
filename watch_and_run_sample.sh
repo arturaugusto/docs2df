@@ -1,0 +1,1 @@
+cd .; until ack-grep  -f --python | entr python2.7 ./sample.py; do sleep 1; done
